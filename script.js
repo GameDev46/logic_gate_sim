@@ -16,10 +16,10 @@ let scroll = {
 let undoList = [];
 
 let websiteAudio = {
-	cachedDrop: new Audio("/sounds/drop.wav"),
-	cachedDrop2: new Audio("/sounds/drop2.wav"),
-	cachedConnect: new Audio("/sounds/connect2.wav"),
-	cachedConnect2: new Audio("/sounds/connect.wav"),
+	cachedDrop: new Audio("./sounds/drop.wav"),
+	cachedDrop2: new Audio("./sounds/drop2.wav"),
+	cachedConnect: new Audio("./sounds/connect2.wav"),
+	cachedConnect2: new Audio("./sounds/connect.wav"),
 	drop: function() {
 		let tempAudio = this.cachedDrop;
 
@@ -69,7 +69,7 @@ gateButton.addEventListener("click", e => {
 	newGateH2.innerText = gateSelect.value;
 
 	let newGateImage = document.createElement("img");
-	newGateImage.src = "images/" + gateSelect.value + ".svg";
+	newGateImage.src = ".images/" + gateSelect.value + ".svg";
 	//if (gateSelect.value == "buffer") newGateImage.src = "images/" + gateSelect.value + ".png";
 	newGateImage.alt = gateSelect.value + " gate";
 	newGateImage.onerror = function() {
