@@ -69,7 +69,7 @@ gateButton.addEventListener("click", e => {
 	newGateH2.innerText = gateSelect.value;
 
 	let newGateImage = document.createElement("img");
-	newGateImage.src = ".images/" + gateSelect.value + ".svg";
+	newGateImage.src = "./images/" + gateSelect.value + ".svg";
 	//if (gateSelect.value == "buffer") newGateImage.src = "images/" + gateSelect.value + ".png";
 	newGateImage.alt = gateSelect.value + " gate";
 	newGateImage.onerror = function() {
