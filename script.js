@@ -1061,7 +1061,7 @@ let clockInterval = setInterval(updateAllClocks, 700);
 let saveToggle = false;
 
 document.getElementById("save-drogic").addEventListener("click", e => {
-	let saveString = "https://logicgates.gamedev46.repl.co/" + "?code=";
+	let saveString = "https://gamedev46.github.io/logic_gate_sim/" + "?code=";
 	for (var i = 0; i < gates.length; i++) {
 		tempConnects = "";
 		
