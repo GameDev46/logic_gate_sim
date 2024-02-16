@@ -1,12 +1,12 @@
 <a href="https://github.com/GameDev46" title="Go to GitHub repo">
-    <img src="https://img.shields.io/static/v1?label=GameDev46&message=Profile&color=Green&logo=github&style=for-the-badge&labelColor=1f1f22" alt="GameDev46 - logic_gate_sim">
-    <img src="https://img.shields.io/badge/Version-1.1.4-green?style=for-the-badge&labelColor=1f1f22&color=Green" alt="GameDev46 - logic_gate_sim">
+    <img src="https://img.shields.io/static/v1?label=GameDev46&message=|&color=Green&logo=github&style=for-the-badge&labelColor=1f1f22" alt="GameDev46 - logic_gate_sim">
+    <img src="https://img.shields.io/badge/Version-0.5.1-green?style=for-the-badge&labelColor=1f1f22&color=Green" alt="GameDev46 - logic_gate_sim">
 </a>
 
 
-![Static Badge](https://img.shields.io/badge/-HTML5-1f1f22?style=for-the-badge&logo=HTML5)
-![Static Badge](https://img.shields.io/badge/-CSS-1f1f22?style=for-the-badge&logo=CSS3&logoColor=6060ef)
-![Static Badge](https://img.shields.io/badge/-JavaScript-1f1f22?style=for-the-badge&logo=JavaScript)
+![Static Badge](https://img.shields.io/badge/--1f1f22?style=for-the-badge&logo=HTML5)
+![Static Badge](https://img.shields.io/badge/--1f1f22?style=for-the-badge&logo=CSS3&logoColor=6060ef)
+![Static Badge](https://img.shields.io/badge/--1f1f22?style=for-the-badge&logo=JavaScript)
     
 <a href="https://github.com/GameDev46/logic_gate_sim/stargazers">
     <img src="https://img.shields.io/github/stars/GameDev46/logic_gate_sim?style=for-the-badge&labelColor=1f1f22" alt="stars - logic_gate_sim">
@@ -17,17 +17,6 @@
 <a href="https://github.com/GameDev46/logic_gate_sim/issues">
     <img src="https://img.shields.io/github/issues/GameDev46/logic_gate_sim?style=for-the-badge&labelColor=1f1f22&color=blue"/>
  </a>
-
-<br>
-<br>
-
-<a href="https://github.com/GameDev46/logic_gate_sim/releases/">
-    <img src="https://img.shields.io/github/tag/GameDev46/logic_gate_sim?include_prereleases=&sort=semver&color=Green&style=for-the-badge&labelColor=1f1f22" alt="GitHub tag">
-</a>
-
-<a href="https://github.com/GameDev46/logic_gate_sim/issues">
-    <img src="https://img.shields.io/github/issues/GameDev46/logic_gate_sim?style=for-the-badge&labelColor=1f1f22" alt="issues - logic_gate_sim">
-</a>
 
 <br>
 <br>
@@ -56,35 +45,29 @@ Simply use the dropdown to select the node type and hit the add node button to a
 
 ## Gates
 
-INPUT - Click to toggle its output high and low
+*INPUT* - Click to toggle its output high and low
 
-OUTPUT - Lights up when the input is high and turns off when the input is low
+*OUTPUT* - Lights up when the input is high and turns off when the input is low
 
---------
+*CLOCK* - Toggles its output from high to low at fixed time intervals
 
-CLOCK - Toggles its output from high to low at fixed time intervals
+*BUFFER* - Leaves the signal unaffected
 
---------
-
-BUFFER - Leaves the signal unaffected
+*TOGGLE* - Toggles from low to high every time its input goes from low to high
 
 --------
 
-TOGGLE - Toggles from low to high every time its input goes from low to high
+*NOT* - NOT Gate
 
---------
+*AND* - AND Gate
 
-NOT - NOT Gate
+*NAND* - NAND Gate
 
-AND - AND Gate
+*OR* - OR Gate
 
-NAND - NAND Gate
+*NOR* - NOR Gate
 
-OR - OR Gate
-
-NOR - NOR Gate
-
-XOR - XOR Gate
+*XOR* - XOR Gate
 
 --------
 
@@ -95,7 +78,3 @@ FULL ADDER - Takes in 3 inputs (bit 1, bit 2 and previous carry bit) and has 2 o
 To save your creations simply press the save button on the top navigation bar and copy the provided save URL and paste it to a file on your device ready to be loaded later.
 
 To load your creation simply copy the saved creation URL and paste it into your browser of choice and it will bring you back to the website and load your saved creation ready for you to continue editing it!
-
-## Website
-
-You can run the program [here on its website](https://gamedev46.github.io/logic_gate_sim/) or alternatively download the files and run it locally on your computer!
